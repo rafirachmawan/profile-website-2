@@ -9,8 +9,14 @@
 
     <!-- link cdn font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <!--Loader-->
+    <div class="bg-loader">
+        <div class="loader"></div>
+    </div>
     
     <!-- Header -->
 
@@ -74,6 +80,19 @@
             </div>
         </div>
     </section>
+
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <small>Copyright &copy; 2024 - Rafi Rachmawan. All Right Reserved.</small>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".bg-loader").hide();
+        })
+    </script>
 
 </body>
 </html>
